@@ -1,4 +1,4 @@
-repend(E, T, [E|T]).
+prepend(E, T, [E|T]).
 
 addElement(E, [], [E]).
 addElement(E,[H|T], [H|AT]) :- addElement(E,T,AT).
